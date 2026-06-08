@@ -17,7 +17,7 @@ The current training config is [`examples/LIBERO/train_files/WorldPilot.yaml`](.
 - Qwen3-VL action checkpoint: [StarVLA/Qwen3-VL-4B-Instruct-Action](https://huggingface.co/StarVLA/Qwen3-VL-4B-Instruct-Action)
 - ABot-M0 pretrain checkpoint: [amap_cvlab/ABot-M0-Pretrain](https://www.modelscope.cn/models/amap_cvlab/ABot-M0-Pretrain)
 
-## 1. Download or prepare Cosmos cache
+## 1. Prepare Cosmos cache
 
 Training reads precomputed Cosmos cache from `datasets.vla_data.cosmos_cache_dir`.
 
@@ -41,8 +41,6 @@ expected to match the dataset split names under `cosmos_cache_dir`, for example:
   libero_spatial_no_noops_1.0.0_lerobot/
 ```
 
-## 2. Precompute Cosmos cache
-
 Edit the variables required by `cosmos_bridge/run_precompute.sh`, then run:
 
 ```bash
@@ -52,7 +50,7 @@ bash cosmos_bridge/run_precompute.sh
 
 The script starts one Cosmos server per dataset split and writes the cache to your target output directory.
 
-## 3. Edit the training config
+## 2. Edit the training config
 
 Update `examples/LIBERO/train_files/WorldPilot.yaml` for your machine and experiment.
 
@@ -66,7 +64,7 @@ At minimum, set:
 - `datasets.vla_data.cosmos_cache_dir`
 - `trainer.pretrained_checkpoint`
 
-## 4. Edit the launch script
+## 3. Edit the launch script
 
 Update the top block of `examples/LIBERO/train_files/run_libero_train.sh`:
 
@@ -74,7 +72,7 @@ Update the top block of `examples/LIBERO/train_files/run_libero_train.sh`:
 - `CONFIG_YAML` if you do not want the default yaml
 
 
-## 5. Launch
+## 4. Launch
 
 ```bash
 cd /path/to/WorldPilot

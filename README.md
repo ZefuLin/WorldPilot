@@ -1,5 +1,7 @@
 <h1 align="center">World Pilot: Steering Vision-Language-Action Models with World-Action Priors</h1>
 
+<p align="center">Zefu Lin, Rongxu Cui, Junjia Xu, Xiaojuan Jin, Wenling Li, Lue Fan, and Zhaoxiang Zhang</p>
+
 <p align="center">
   <a href="https://world-pilot.github.io/"><img alt="Project Page" src="https://img.shields.io/static/v1?label=&message=Project%20Page&color=111827&style=flat-square&logo=googlechrome&logoColor=white"></a>
   <a href="#"><img alt="arXiv" src="https://img.shields.io/static/v1?label=&message=arXiv&color=B31B1B&style=flat-square&logo=arxiv&logoColor=white"></a>
@@ -45,15 +47,15 @@
 ## 📚 Documentation
 
 The documentation below covers environment setup, training, and public evaluation. Start with the
-installation guide, then follow the training or evaluation notes for your workflow. The installation
-and training docs now call out the upstream repositories to follow first, the non-Docker Cosmos setup
-used by this repo, and the required pretrained weights/cache artifacts.
+installation guide, then follow the training or evaluation notes for your workflow.
 
 - [Installation](./doc/environment.md)
 - [Training](./doc/training.md)
 - [Evaluation](./doc/evaluation.md)
 
-Resources:
+## 🤗 Model Zoo
+
+We release our pretrained model parameters and precomputed LIBERO cache on Hugging Face.
 
 - Model weights: [Chedan86/WorldPilot-LIBERO](https://huggingface.co/Chedan86/WorldPilot-LIBERO)
 - Precomputed LIBERO cache: [Chedan86/WorldPilot-LIBERO-precompute](https://huggingface.co/datasets/Chedan86/WorldPilot-LIBERO-precompute)
