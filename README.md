@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://world-pilot.github.io/"><img alt="Project Page" src="https://img.shields.io/static/v1?label=&message=Project%20Page&color=111827&style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="#"><img alt="arXiv" src="https://img.shields.io/static/v1?label=&message=arXiv&color=B31B1B&style=flat-square&logo=arxiv&logoColor=white"></a>
+  <a href="https://arxiv.org/abs/2606.12403"><img alt="arXiv" src="https://img.shields.io/static/v1?label=&message=arXiv&color=B31B1B&style=flat-square&logo=arxiv&logoColor=white"></a>
   <a href="./assets/example.pdf"><img alt="Paper PDF" src="https://img.shields.io/static/v1?label=&message=Paper%20PDF&color=2563EB&style=flat-square&logo=adobeacrobatreader&logoColor=white"></a>
   <a href="https://huggingface.co/Chedan86/WorldPilot-LIBERO"><img alt="Hugging Face" src="https://img.shields.io/static/v1?label=&message=Hugging%20Face&color=F4B400&style=flat-square&logo=huggingface&logoColor=111827"></a>
 </p>
