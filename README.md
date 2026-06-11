@@ -70,7 +70,7 @@ If WorldPilot helps your research, we would appreciate a citation using the BibT
 @article{worldpilot2026,
   title={World Pilot: Steering Vision-Language-Action Models with World-Action Priors},
   author={Zefu Lin and Rongxu Cui and Junjia Xu and Xiaojuan Jin and Wenling Li and Lue Fan and Zhaoxiang Zhang},
-  journal={Coming Soon.},
+  journal={arXiv preprint arXiv:2606.12403},
   year={2026}
 }
 ```
